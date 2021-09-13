@@ -14,7 +14,7 @@ function Home() {
   return (
     <Layout>
       {links.map((link, i) => (
-        <Link key={i} to={link.link} className="text-blue-600">
+        <Link key={i} to={link.link} className="text-blue-600 m-2">
           {link.name}
         </Link>
       ))}
